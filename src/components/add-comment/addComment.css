@@ -1,0 +1,30 @@
+.addComment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid lightskyblue;
+    padding: 10px;
+}
+
+.addComment__inp {
+    width: 80%;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.addComment__btn {
+    width: 200px;
+    background: none;
+    border: 1px solid lightskyblue;
+    color: lightskyblue;
+    padding: 10px;
+    transition: .3s;
+}
+
+.addComment__btn:hover {
+    background: lightskyblue;
+    color: white;
+}
